@@ -1,10 +1,16 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <!DOCTYPE html>
+<html lang="en">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
-    <title></title>
+
+    <link rel="StyleSheet" type="text/css" href="StyleSheet.css" media="all">
+	<meta charset="utf-8">
+
+    <title>Salary Calculation Web Site</title>
     <style type="text/css">
         .auto-style1 {
             text-align: center;
@@ -15,22 +21,22 @@
         }
     </style>
 </head>
+
+
 <body>
     <form id="form1" runat="server">
         <div class="auto-style1">
-            <strong>Salary Calculation WebSite </strong>
+            <strong>Salary Calculator</strong><br />
             <br />
-            <br />
-            <span class="auto-style2">Hourly wage:&nbsp;&nbsp;
+            <span class="auto-style2">Hourly wage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
             <asp:TextBox ID="tb_hourlyWage" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
-            Number of hour:&nbsp;
-            <asp:TextBox ID="tb_numofHour" runat="server" Height="22px" Width="124px"></asp:TextBox>
+            Number of hour:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; our" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
-            Pre-tax deduction:&nbsp;
+            Pre-tax deduction:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="tb_preTaxDeduction" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
-            After tax deduction:&nbsp;
+            After tax deduction:&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="tb_afterTaxDeduction" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
             <br />
@@ -46,4 +52,7 @@
         </div>
     </form>
 </body>
+
 </html>
+</html>
+
