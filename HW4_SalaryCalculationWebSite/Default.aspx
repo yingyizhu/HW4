@@ -33,6 +33,15 @@
             After tax deduction:&nbsp;
             <asp:TextBox ID="tb_afterTaxDeduction" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
+            <br />
+            <br />
+            Net income&nbsp; :&nbsp;
+            <asp:Label ID="lbl_result" runat="server"></asp:Label>
+            <br />
+            <br />
+            <asp:Button ID="btn_calculate" runat="server" Text="Calculate Salary" />
+&nbsp;
+            <asp:Button ID="btn_clean" runat="server" Text="Clean" />
             </span>
         </div>
     </form>
