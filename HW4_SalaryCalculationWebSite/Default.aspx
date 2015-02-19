@@ -31,7 +31,8 @@
             <span class="auto-style2">Hourly wage:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
             <asp:TextBox ID="tb_hourlyWage" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
-            Number of hour:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; our" runat="server" Height="22px" Width="124px"></asp:TextBox>
+            Number of hour:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:TextBox ID="tb_numofHour" runat="server" Height="22px" Width="124px"></asp:TextBox>
             <br />
             Pre-tax deduction:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="tb_preTaxDeduction" runat="server" Height="22px" Width="124px"></asp:TextBox>
